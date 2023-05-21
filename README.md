@@ -55,5 +55,5 @@ WhisperFlow is released under the Magical Mischief License. You are granted the 
 So why settle for conventional storage methods when you can embrace the enchanting realm of WhisperFlow? Witness the fusion of files and videos, and embark on an extraordinary journey beyond the boundaries of ordinary data storage. Let the whispers of your files flow seamlessly into the infinite expanse of YouTube, where storage limitations vanish like a puff of smoke. Happy WhisperFlowing!
 
 <p align="center">
-<img src="whisperflow_screenshot.png" alt="WhisperFlow Screenshot">
+<img src="C:\Users\vince\OneDrive\Immagini\Screenshots\Screenshot (19).png" alt="WhisperFlow Screenshot">
 </p>
