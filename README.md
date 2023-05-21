@@ -14,13 +14,12 @@
 
 ---
 
-Are you tired of mundane storage options for your files? Seeking a whimsical solution that merges files and videos into a dazzling spectacle? Look no further, for WhisperFlow is here to delightfully defy the laws of digital storage!
+Are you tired of mundane storage options for your files? Seeking a solution that merges files and videos into a dazzling spectacle? Look no further, for WhisperFlow is here to delightfully defy the laws of digital storage!
 
 ### Features
 
 - **YouTube Integration**: Transform your files into captivating videos ready for YouTube upload, seamlessly merging the virtual realms of data and visual content.
 - **Infinite Storage Magic**: Harness the power of illusion as your files find a new home within the vast expanse of YouTube's storage capacity.
-- **Sarcastic Sorcery**: WhisperFlow comes with a touch of sarcastic charm, adding wit and amusement to the realm of file-to-video transformations.
 
 ### Usage
 
@@ -36,11 +35,11 @@ Are you tired of mundane storage options for your files? Seeking a whimsical sol
 
 ### Examples
 
-Check out these whimsical examples showcasing the infinite storage prowess of WhisperFlow:
+These are some examples showcasing the infinite storage prowess of WhisperFlow:
 
-- Hiding an entire collection of cat memes within a mesmerizing video montage.
-- Concealing a confidential document within a whimsical dance routine video.
-- Storing an entire backup of your favorite TV series as a seemingly innocent video masterpiece.
+- Hiding an entire collection of memes inside a 1 second long video.
+- Sharing .exe files through Gmail under video format.
+- Storing tons of data inside a YouTube video.
 
 ### Contributing
 
@@ -48,7 +47,7 @@ Contributions to WhisperFlow are more than welcome! If you have any ideas for im
 
 ### License
 
-WhisperFlow is released under the Magical Mischief License. You are granted the power to use, modify, and distribute this program while keeping a mischievous grin on your face.
+WhisperFlow is released under the "You can do" license. You are granted the power to use, modify, and distribute this program while keeping a mischievous grin on your face.
 
 ---
 
