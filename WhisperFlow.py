@@ -3,7 +3,6 @@ import imageio
 import time
 import math
 import os
-import hashlib
 
 import numpy as np
 
@@ -80,9 +79,10 @@ def bits_to_file(binary_data: str) -> bytes:
     bytes_ = [int(binary_data[i:i+8], 2) for i in range(0, len(binary_data), 8)]
     return bytes(bytes_) # Convert the list of integers to bytes
 
-def calculate_sha256_hash(data: bytes) -> str:
-    sha256_hash = hashlib.sha256(data).hexdigest()
-    return sha256_hash
+def select_files() -> list:
+    tkinter.Tk().withdraw()
+    files = filedialog.askopenfilenames()
+    return list(files)
 
 def main() -> None:
     # Get the file path
@@ -94,9 +94,6 @@ def main() -> None:
     initial_binary_data = get_binary_data(file_path)
     initial_binary_data_bits = "".join(format(c, "08b") for c in initial_binary_data) # Convert the binary data to a string of bits
     initial_binary_data_length = len(initial_binary_data_bits)
-
-    # Calculate the SHA-256 hash of the binary data
-    initial_binary_data_hash = calculate_sha256_hash(initial_binary_data)
 
     # Specify the width and height of your images
     width = 1024
@@ -115,20 +112,11 @@ def main() -> None:
     binary_data = extract_binary_data_from_video(output_path, width, height)
     binary_data = binary_data[:initial_binary_data_length]
 
-    # Calculate the SHA-256 hash of the extracted binary data
-    extracted_binary_data_hash = calculate_sha256_hash(bits_to_file(binary_data))
-
     # Turning the binary data back into a file
     bytes_ = bits_to_file(binary_data) # Convert the binary data to bytes
     with open("output.{}".format(file_extension), "wb") as file:
         file.write(bytes_) # Write the bytes to the file
     print("File created successfully!")
-
-    # Compare the hashes of the initial and extracted binary data
-    if initial_binary_data_hash == extracted_binary_data_hash:
-        print("Hashes match! The data is unchanged.")
-    else:
-        print("Hashes do not match! The data may have been modified.")
 
 if __name__ == "__main__":
     main()
