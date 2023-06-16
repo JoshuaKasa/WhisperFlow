@@ -54,5 +54,5 @@ WhisperFlow is released under the "You can do" license. You are granted the powe
 So why settle for conventional storage methods when you can embrace the enchanting realm of WhisperFlow? Witness the fusion of files and videos, and embark on an extraordinary journey beyond the boundaries of ordinary data storage. Let the whispers of your files flow seamlessly into the infinite expanse of YouTube, where storage limitations vanish like a puff of smoke. Happy WhisperFlowing!
 
 <p align="center">
-    ![WhisperFlow](https://github.com/JoshuaKasa/WhisperFlow/img/image.jpg?raw=true)
+    ![WhisperFlow](https://github.com/JoshuaKasa/WhisperFlow/blob/main/img/WhisperFlow_img.png?raw=true)
 </p>
